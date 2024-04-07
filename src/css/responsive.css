@@ -1,0 +1,82 @@
+@media screen and (max-width: 750px) {
+
+    .contenedor{
+        border-radius: 50px;
+        height: 100%;
+        width: 100%;
+        padding-bottom: 12.5rem;  
+    }
+
+    .header__titulo{
+        padding-top: 4.2rem;
+        font-size: 5.5rem;
+        font-weight: 500;
+    }
+
+    .contenedor__imagen{
+        width: 24rem;
+        padding: 1.5rem 0 3.2rem 0;
+    }
+
+    .botones__caja{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1.6rem;
+    }
+
+    .botones__boton{
+        height: 4.5rem;
+        width: 11.5rem;
+        font-size: 1.5rem;
+    }
+
+    .footer__descripcion{
+        font-size: 1.2rem;
+    }
+
+    .footer__creador{
+        font-size: 0.9rem
+    }
+     /* Header Registro */
+    .registro__header{
+        text-align: center;
+    }
+
+    .registro__titulo{
+        font-size: 3.5rem;
+        padding: 3rem 0;
+    }
+    
+    .registro__formulario{
+        padding-top: 6rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .imagen__decorativa{
+        position: absolute;
+    }
+
+    .poligono__uno{
+        bottom: -4%;
+        left: 1%;
+    }
+
+    .poligono__dos{
+        right: 1%;
+        top: 1%;
+    }
+
+    .datos__dato--submit{
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer__z-index{
+        z-index: 5;
+    }
+}
+

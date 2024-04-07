@@ -10,7 +10,7 @@
 
 body{
     font-family: 'Roboto Serif', Arial, Helvetica, sans-serif;
-    background-color: var(--color-verde);
+    
     font-size: 10px;
 }
 /* ESTILOS PARA EL INDEX DE LA APLICACION */
@@ -22,9 +22,10 @@ body{
     width: 100%;
     height: 100%;
     padding-top: 3.5rem;
+    background-color: var(--color-verde);
 }
 
-.contenedor__header{
+.contenedor__header, .registro__header{
     padding: 2.5rem 0;
 }
 
@@ -121,3 +122,71 @@ body{
 .footer__descripcion, .footer__creador{
     color: var(--color-blanco);
 }
+
+.color__negro{
+    color: var(--color-negro);
+}
+
+/* Registro, estilos generales.*/
+
+.contenedor__registro{
+    position: relative;
+}
+
+.atras__icono, .atras__link{
+    width: 2.7rem;
+    height: 3.6rem;
+}
+
+.atras__icono{
+    color: var(--color-verde);
+    position: absolute;
+    left: 15px;
+    top: 15px;
+}
+
+.registro__icono{
+    width: 9.5rem;
+    height: 6.5rem;
+    color: var(--color-verde);
+    position: absolute;
+    left: 38%;
+    top: 26%;
+}
+
+.formulario__titulo{
+    font-size: 1.7rem;
+    padding-bottom: 1.1rem;
+}
+
+.label__registro{
+    font-size: 1.3rem;
+    padding-top: 1.2rem;
+}
+
+.input__dato{
+    width: 15rem;
+    height: 2rem;
+    border-radius: 15px;
+}
+
+.input__submit{
+    width: 7.2rem;
+    height: 3.2rem;
+    border-radius: 15px;
+    background-color: var(--color-verde);
+    color: var(--color-blanco);
+    font-size: 1.2rem;
+}
+
+.datos__dato--submit{
+    padding-top: 2rem;
+}
+
+.registro__contenedor-formulario{
+    padding-bottom: 5rem;
+}
+
+::placeholder {
+    text-align: center;
+  }

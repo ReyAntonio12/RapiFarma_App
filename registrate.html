@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wdth,wght@0,8..144,50..150,100..900;1,8..144,50..150,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="src/css/reset.css" />
+    <link rel="stylesheet" href="src/css/styles.css" />
+    <link rel="stylesheet" href="src/css/responsive.css">
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <title>Rapi Farma | Registrate</title>
+</head>
+<body>
+    <div class="contenedor__registro">
+        <a href="index.html" class="atras__link">
+            <ion-icon name="arrow-back-outline" class="atras__icono"></ion-icon>
+        </a>
+        <header class="registro__header">
+            <h1 class="registro__titulo">
+                Registrate...
+            </h1>
+        </header>
+        <section class="registro__contenedor-icono">
+            <ion-icon name="person-circle-outline" class="registro__icono"></ion-icon>
+        </section>
+        <section class="registro__contenedor-formulario">
+            <form class="registro__formulario">
+                <h2 class="formulario__titulo">
+                    Ingresa tus datos para completar el registro
+                </h2>
+                <section class="formulario__datos">
+                    <ul class="datos__contenedor">
+                        <li class="datos__dato">
+                            <label for="nombre" class="label__registro"> Nombres y Apellidos </label>
+                            <input type="text" name="nombre" id="inputNombre" class="input__dato" placeholder="Escribe aquí..."/>
+                        </li>
+                        <li class="datos__dato" >
+                            <label for="email" class="label__registro"> Email </label>
+                            <input type="email" name="email" id="inputEmail" class="input__dato" placeholder="Escribe aquí..."/>
+                        </li>
+                        <li class="datos__dato">
+                            <label for="numero" class="label__registro"> Telefono </label>
+                            <input type="number" name="numero" id="inputNumbero" class="input__dato" placeholder="Escribe aquí..." />
+                        </li>
+                        <li class="datos__dato--submit">
+                            <input type="submit" class="input__submit" id="inputSumbit" value="Listo!" onclick="guardarDatos()"/>
+                        </li>
+                    </ul>
+                    
+                </section>
+            </form>
+        </section>
+        <img src="src/assets/Polygon 2.png" class="imagen__decorativa poligono__uno">
+        <img src="src/assets/Polygon 4.png" class="imagen__decorativa poligono__dos">
+        <footer class="contenedor__footer footer__z-index">
+            <p class="footer__descripcion color__negro">Derechos de Propiedad por Farmacias Samaria</p>
+            <p class="footer__creador color__negro"> Creado por · &copy; 2024 Innova Tech S.A</p>
+        </footer> 
+    </div>
+</body>
+</html>
